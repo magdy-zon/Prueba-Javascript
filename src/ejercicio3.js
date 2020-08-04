@@ -40,11 +40,9 @@ const dameElemPosX = function dameElemPosX(pendienteOrden, x) {
   ordenado = ordenaArray(pendienteOrden);
   pos = ordenado.length - x;
 
-  console.log(ordenado);
   return ordenado[pos];
 }
 
- dameElemPosX([7,2,5,9,8,3],2);
 
 
 

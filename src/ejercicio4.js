@@ -13,7 +13,6 @@ const eliminaDups = function eliminaDups(aEliminar) {
       elemsSinDup[aEliminar[i]] = aEliminar[i];
     };
 
-    console.log(elemsSinDup);
     return elemsSinDup;
 }
 

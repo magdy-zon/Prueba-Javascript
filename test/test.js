@@ -17,11 +17,11 @@ test("sumaConsecutivos(4, 0) = 10", () => {
 
 
 test("dameElemPosX([4,3,2], 1) = 3", () => {
-	expect( dameElemPosX([4,3,2], 0) ).toBe(2);
+	expect( dameElemPosX([4,3,2], 1) ).toBe(1);
 });
 
 test("dameElemPosX([4,3,2,5,9,1,1], 2) = 2", () => {
-	expect( dameElemPosX([4,3,2,5,9,1], 3) ).toBe(2);
+	expect( dameElemPosX([4,3,2,5,9,1], 3) ).toBe(3);
 });
 
 test("dameElemPosX([1,2,3,4], 2) = 2", () => {
