@@ -1,0 +1,21 @@
+{
+  "name": "jaque",
+  "version": "1.0.0",
+  "description": "ejercicios de prueba",
+  "main": "ejercicio1.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "jest": "^26.2.2"
+  },
+  "devDependencies": {
+    "mocha": "^8.1.0"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Magdiel",
+  "license": "ISC"
+}
